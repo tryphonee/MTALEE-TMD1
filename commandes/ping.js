@@ -16,7 +16,7 @@ zokou(
   {
     nomCom: 'pingi',
     categorie: 'General',
-    reaction: '⏱️',
+    reaction: '🚀',
     alias: ['p']
   },
 
@@ -107,7 +107,7 @@ _CPU Core(s) Usage (${cpus.length} Core CPU)_
        isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363345407274799@newsletter',
-         newsletterName: "NJABULO JB",
+         newsletterName: "🚀matelee-testing-ping🚀",
          serverMessageId: 143,
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
@@ -145,7 +145,7 @@ zokou(
         isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363345407274799@newsletter',
-         newsletterName: "NJABULO JB",
+         newsletterName: "🚀MATELEE-UPTIME🚀",
          serverMessageId: 143,
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
