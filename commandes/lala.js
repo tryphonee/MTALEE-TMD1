@@ -68,25 +68,25 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-       caption: `\n========================= *𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗦𝗢𝗡𝗚𝗦*\n
+       caption: `\n=========================MATELEE TMD1\n
 =========================
  *Title:* ${videoDetails.title} 
  *Quality:* High
  *Duration:* ${firstVideo.timestamp}
 =========================
 
-> Njabulo Jb 
+> Matelee 
        contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterJid: '120363317462952356@newsletter',
-          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          newsletterName: "matelee tmd",
           serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            title: "matelee tmd",
+            body: "matelee tmd",
             thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
