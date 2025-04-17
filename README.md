@@ -5,10 +5,10 @@
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31">
-    <img alt=Support height="390" src="https://files.catbox.moe/aktbgo.jpg"> 
+    <img alt=Support height="390" src="https://files.catbox.moe/v0gjyy.jpg"> 
     </p>
 
-ᴄʟɪᴄᴋ ᴡᴀ ʟᴏɢᴏ ᴛᴏ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👇 
+MATELEE TMD MATELEE-TMD  KING 👇 
 <br> [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T)
   <div align="center"  >
 <h4 align="center">Plugins</h1>
@@ -40,7 +40,7 @@
   </tr>
   <tr>
     <td align="center">
-      <b>DEPLOY RAHMAN XMD</b><br>
+      <b>DEPLOY MATELEE TMD</b><br>
       ᴅᴇᴘʟᴏʏ ᴛʜᴇ ʙᴏᴛ ᴜsᴇ ɴᴏʀᴍᴀʟ ʙᴏᴛ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡᴏʀᴋɪɴɢ 100% ɴᴏ ʙᴀɴɴᴇᴅ ʜᴇʀᴏᴋᴜ ᴀɴᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴛᴀɴᴋs ʏᴏᴜ ᴇɴᴊᴏʏ.
       <br><br>
       <a href="https://dashboard.heroku.com/new?button-url=https://github.com/tryphonee/MTALEE-TMD1&template=https://github.com/tryphonee/MTALEE-TMD1.git">
@@ -48,7 +48,7 @@
       </a>
     </td>
     <td align="center">
-      <b>DEPLOY RAHMAN XMD</b><br>
+      <b>DEPLOY MATELEE TMD</b><br>
       ᴅᴇᴘʟᴏʏ ᴛʜᴇ ʙᴏᴛ ᴜsᴇ ɴᴏʀᴍᴀʟ ʙᴏᴛ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡᴏʀᴋɪɴɢ 100% ɴᴏ ʙᴀɴɴᴇᴅ ʜᴇʀᴏᴋᴜ ᴀɴᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴛᴀɴᴋs ʏᴏᴜ ᴇɴᴊᴏʏ.
       <br><br>
        <a href="https://dashboard.heroku.com/new?button-url=https://github.com/tryphonee/MTALEE-TMD1&template=https://github.com/tryphonee/MTALEE-TMD1.git">
