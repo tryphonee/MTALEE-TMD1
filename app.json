@@ -1,5 +1,5 @@
 {
-  "name": "RAHMANI-XMD",
+  "name": "MATELEE-TMD",
   "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://files.catbox.moe/aktbgo.jpg",
-  "repository": "https://github.com/Qartde/RAHMANI-XMD",
+  "repository": "https://github.com/tryphonee/MTALEE-TMD1",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -74,7 +74,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "RAHMANI-XMD",
+      "value": "MATELEE-TMD",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -99,7 +99,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Rahmani Md",
+      "value": "MATELEE-TMD",
       "required": false
     },
     "URL": {
@@ -114,7 +114,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547')",
-      "value": "255693629079",
+      "value": "255697993596,255784766591",
       "required": false
     },
     "WARN_COUNT": {
