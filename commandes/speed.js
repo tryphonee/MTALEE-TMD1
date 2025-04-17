@@ -26,14 +26,14 @@ zokou(
     } = commandOptions;
     const start = new Date().getTime();
     const msg = await zk.sendMessage(dest, {
-      text: '*𝙰𝙻𝚆𝙰𝚈𝚂 𝚀𝙰𝚁𝚃.✍︎*',
+      text: '*MATELEE√PING✓99999999.🚀*',
     }, {
       quoted: ms
     });
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `*𝚁𝙰𝙷𝙼𝙰𝙽𝙸 𝙼𝙳 𝙱𝙾𝚃.....✍️💀*
+      text: `*MATELEE_IS_PING_THIS_TIME9999999.....✍️💀*
  *${ping} ms*`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
