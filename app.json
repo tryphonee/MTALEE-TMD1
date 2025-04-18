@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/aktbgo.jpg",
+  "logo": "https://files.catbox.moe/v0gjyy.jpg",
   "repository": "https://github.com/tryphonee/MTALEE-TMD1",
   "succes_url": "/",
   "stack": "container",
@@ -104,7 +104,7 @@
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/aktbgo.jpg",
+      "value": "https://files.catbox.moe/v0gjyy.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
