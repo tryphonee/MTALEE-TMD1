@@ -1,7 +1,7 @@
-const { pkdriller } = require("../pkdriller/pkdriller");
+const { zokou } = require("../framework/zokou");
 const conf = require(__dirname + "/../set");
 
-keith({
+zokou({
   nomCom: "profile",
   aliases: ["pp", "whois"],
   desc: "to generate profile picture",
@@ -52,7 +52,7 @@ keith({
     console.error('Unexpected error in profile command:', error); 
   }
 });
-keith({
+zokou({
   nomCom: "profile2",
   aliases: ["pp2", "whois2"],
   desc: "to generate business profile picture",
