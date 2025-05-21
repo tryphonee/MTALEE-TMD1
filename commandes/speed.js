@@ -22,7 +22,7 @@ zokou({
   try {
     await _0x400448.sendMessage(_0x411700, {
       'audio': {
-        'url': "https://files.catbox.moe/2wonzj.mp3"
+        'url': "https://files.catbox.moe/da81t8.mp3"
       },
       'mimetype': "audio/mp4",
       'ptt': true,
@@ -30,7 +30,7 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363332512801418@newsletter",
-          'newsletterName': "Rahman",
+          'newsletterName': "𝚳𝚫𝚻𝚵𝐋𝚵𝚵 𝚻𝚳𝐃1",
           'serverMessageId': 0x8f
         },
         'forwardingScore': 0x3e7,
