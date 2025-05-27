@@ -37,11 +37,11 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ╭─────────────────━┈⊷ 
-│⛔ RAHMANI-MD 𝐓𝐀𝐆𝐒
+│🌟 𝛭𝛥𝑇𝛯𝐿𝛯𝛯 𝑇𝛭𝐷 𝑇𝛥𝐺𝛥𝐿𝐿
 ╰─────────────────━┈⊷ \n
-│⭕ *Group* : ${nomGroupe} 
-│⭕ *Hey😀* : *${nomAuteurMessage}* 
-│⭕ *Message* : *${mess}* 
+│⚙️ *Group* : ${nomGroupe} 
+│🎼 *Hey😀* : *${nomAuteurMessage}* 
+│🎊 *Message* : *${mess}* 
 ╰─────────────━┈⊷\n
 \n
 
@@ -78,7 +78,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©Rahmani-md 𝐬𝐜𝐢𝐞𝐧𝐜𝐞`
+Group link :${lien} \n\n©ᴘᴏᴡᴇʀ ʙʏ ᴍᴀᴛᴇʟᴇᴇ ᴛᴍᴅ ʟɪɴᴋ`
   repondre(mess)
 
 
