@@ -10,10 +10,10 @@ function apply(map, text) {
 
 function list(text, fancy) {
     let styles = Object.keys(fancy).filter(e => e.length < 3);
-    let msg = '\n*Availabe Fancy styles for MATELEE-TMD:*\n\n';
+    let msg = '\n*Availabe Fancy styles for RAHMANI XMD:*\n\n';
     for (let style in styles) {
         if (style == 33) {
-            msg += (parseInt(style) + 1) + '. ' + 'Matelee tmd' + '\n';
+            msg += (parseInt(style) + 1) + '. ' + 'Rahmani xMd' + '\n';
         } else {
             msg += (parseInt(style) + 1) + '. ' + fancy.apply(fancy[parseInt(style)], text) + '\n';
         }

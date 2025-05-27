@@ -42,7 +42,7 @@ zokou({
 
         // Format the message to send to the user
         const formattedMessage = `
-*MATELEE TMD1 LYRICS FINDER*
+*RAHMANI XMD LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 

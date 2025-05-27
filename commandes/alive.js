@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *MATELEE-TMD-WABOT*`
+ *𝑹𝑨𝑯𝑴𝑨𝑵𝑰_𝑴𝑫-WABOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Hello👋 ,*I am matelee👍* _*Am Alive 24/7 Just Like You😊*_ *🌟Thanks To God🌟* _ENJOY LIFE🤗_. ')
+repondre(' Hello👋 ,*I am Rahmani👍* _*Am Alive 24/7 Just Like You😊*_ *🌟Thanks To God🌟* _ENJOY LIFE🤗_. ')
 
 }
     });

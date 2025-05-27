@@ -132,7 +132,7 @@ zokou({
     const imdbData = response.data;
 
     let imdbInfo = "THANKS ALL FOR THE SUPPORT ITS ME RAHMANI \n";
-    imdbInfo += " ``` MATELEE-TMD FILMS```\n";
+    imdbInfo += " ``` RAHMANI-MD FILMS```\n";
     imdbInfo += "*Made by Ibrahim Adams*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";

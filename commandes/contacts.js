@@ -85,7 +85,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T`) 
+                 await repondre(`https://whatsapp.com/channel/0029VatokI45EjxufALmY32X`) 
 
    
 
@@ -128,7 +128,7 @@ zokou({ nomCom: 'channel1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`tap here to join my second channel https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T`) 
+                 await repondre(`tap here to join my second channel https://whatsapp.com/channel/0029VatokI45EjxufALmY32X`) 
 
    
 
@@ -137,7 +137,7 @@ zokou({ nomCom: 'channel1',
 );
 
 
-zokou({ nomCom: 'pkl',
+zokou({ nomCom: 'rahzayn',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
@@ -189,7 +189,7 @@ zokou({ nomCom: 'group1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top a link to join our group https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T `) 
+                 await repondre(`top a link to join our group https://whatsapp.com/channel/0029VatokI45EjxufALmY32X `) 
 
    
 
@@ -198,7 +198,7 @@ zokou({ nomCom: 'group1',
 )
 
 
-zokou({ nomCom: 'scriptpk',
+zokou({ nomCom: 'script',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🐅', 
@@ -209,7 +209,7 @@ zokou({ nomCom: 'scriptpk',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`tap here to join our support channel https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T`) 
+                 await repondre(`tap here to join our support channel https://whatsapp.com/channel/0029VatokI45EjxufALmY32X`) 
 
 
 
@@ -228,7 +228,7 @@ zokou({ nomCom: 'rahmani',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_YESS....I'M LISTENING TO YOU_*`) 
+                 await repondre(`*_YESS BOSS 'AM LISTENING TO YOU_*`) 
 
    
 
@@ -276,7 +276,7 @@ zokou({ nomCom: 'problem',
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ || Creator = 𖥘 rahmaniMd 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VatokI45EjxufALmY32X
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
 Wanna talk to me?👉 https://wa.me/c/255693629079 👈

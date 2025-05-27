@@ -21,7 +21,7 @@ zokou({
                  `• *Name:* ${s.OWNER_NAME}\n` +
                  `• *Date:* ${date}\n` +
                  `• *Time:* ${temps}\n\n` +
-                 `> *Powered by matelee Md*`;
+                 `> *Powered by Rahmani Md*`;
 
   try {
     const mediaUrl = await mybotpic();
@@ -35,12 +35,12 @@ zokou({
           gifPlayback: true,
           contextInfo: {
             externalAdReply: {
-              title: `matelee-Md Deployer`,
+              title: `Rahmani-Md Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 2,
-              mediaUrl: "https://files.catbox.moe/v0gjyy.jpg",
-              sourceUrl: "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"
+              mediaUrl: "https://files.catbox.moe/aktbgo.jpg",
+              sourceUrl: "https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T"
             }
           }
         }, { quoted: ms });
@@ -51,12 +51,12 @@ zokou({
           caption: infoMsg,
           contextInfo: {
             externalAdReply: {
-              title: `matelee-Md Deployer`,
+              title: `Rahmani-Md Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 1,
-              mediaUrl: "https://files.catbox.moe/v0gjyy.jpg",
-              sourceUrl: "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"
+              mediaUrl: "https://files.catbox.moe/aktbgo.jpg",
+              sourceUrl: "https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T"
             }
           }
         }, { quoted: ms });
