@@ -8,7 +8,7 @@ zokou({ nomCom: "fancy", categorie: "Fun", reaction: "☑️" }, async (dest, zk
 
     try {
         if (id === undefined || text === undefined) {
-            return await repondre(`\nExemple : ${prefixe}fancy Rahmani Md\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('𝚁𝙰𝙷𝙼𝙰𝙽𝙸', fancy));
+            return await repondre(`\nExemple : ${prefixe}fancy matelee\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('matelee', fancy));
         }
 
         const selectedStyle = fancy[parseInt(id) - 1];
