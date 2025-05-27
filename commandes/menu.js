@@ -7,7 +7,7 @@ const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
-zokou({ nomCom: "mega", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -33,12 +33,12 @@ const date = moment().format('DD/MM/YYYY');
 ┃⊛│◆ 𝚁𝚊𝚖  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
 ┃⊛│◆ 𝙳𝚊𝚝𝚎  : *${date}* 
 ┃⊛│◆ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ғʀᴇᴅɪᴇ ᴛᴇᴄʜ
+┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ᴍᴀᴛᴇʟᴇᴇ
 ┃⊛│◆ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : FRED
+┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : matelee
 ┃⊛└───────────➻
 ╰─━━━━══─⊷─══━━━❂\n${readmore}`;
-    let menuMsg = `𝙻𝚞𝚌𝚔𝚢 𝙼𝚍 𝙲𝚖𝚍`;
+    let menuMsg = `ᴍᴀᴛᴇʟᴇᴇ ᴛᴍᴅ ᴄᴏᴍᴍᴀɴᴅs`;
     for (const cat in coms) {
         menuMsg += `
 ╭━━═✺ *${cat}* ✺═━━⊷ 
@@ -53,7 +53,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰━━━═⊷✺•∞•✺⊷═━━━⊷`
     }
     menuMsg += `
-> Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n
+> ᴘᴏᴡᴇʀ ʙʏ ᴍᴀᴛᴇʟᴇᴇ ᴛᴍᴅ\n
 `;
    var lien = mybotpic();
    if (lien.match(/\.(mp4|gif)$/i)) {
