@@ -114,7 +114,7 @@ setTimeout(() => {
         store.bind(zk.ev);
         // Replace the status reaction code with this:
 
-if (conf.RAHMANI_MD === "yes") {
+if (conf.AUTOREACT_STATUS=== "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
@@ -196,10 +196,10 @@ if (conf.RAHMANI_MD === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255693629079';
-            const dj2 = '255693629079';
-            const dj3 = "255693629079";
-            const luffy = '255693629079';
+            const dj = '255743414322';
+            const dj2 = '255762215591';
+            const dj3 = "255756469954";
+            const luffy = '255784766591';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -207,7 +207,7 @@ if (conf.RAHMANI_MD === "yes") {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tRAHMANI MD ONLINE");
+            console.log("\MATELEE TMD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -568,7 +568,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Anyway-Md',
+                pack: 'matelee md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -712,13 +712,13 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*RAHMANI MD WELCOME MESSAGE*`;
+            let msg = `*𝛭𝛥𝑇𝛯𝐿𝛯𝛯 𝑇𝛭𝐷 𝑊𝛯𝐿𝐶𝛩𝛭𝛯 𝛪𝛮 𝑇𝛨𝛯 𝐺𝑅𝛩𝑈𝛲 𝛭𝛯𝑆𝑆𝛥𝐺𝛯*`;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
+                msg += ` \n]|I{•------»*Hey* 🖐️ @${membre.split("@")[0]} 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙. \n\n`;
             }
 
-            msg += `❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED* `;
+            msg += `❒ *ʀᴇᴀᴅ ᴛʜᴇ ɢʀᴏᴜᴘ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴛᴏ ᴀᴠᴏɪᴅ ɢᴇᴛᴛɪɴɢ ʀᴇᴍᴏᴠᴇᴅ ʏᴏᴜ* `;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -846,18 +846,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ RAHMANI XMD is connecting...");
+                console.log("ℹ️ 𝙼𝙰𝚃𝙴𝙻𝙴 𝚃𝙼𝙳 is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ RAHMANI XMD Connected to WhatsApp! ☺️");
+                console.log("✅ 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚃𝙼𝙳 Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("RAHMANI XMD is Online 🕸\n\n");
+                console.log("𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚃𝙼𝙳 is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Rahmani Commands ...\n");
+                console.log("Loading 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -888,9 +888,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`      ʀᴀʜᴍᴀɴɪ-xᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ
+                let cmsg =`      𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚇𝙼𝙳
 ╭─────────────━┈⊷ 
-│🌏 RAHMAN CONNECTED
+│🌏 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
 ╰─────────────━┈⊷⁠⁠⁠⁠`;
