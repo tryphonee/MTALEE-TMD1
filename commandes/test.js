@@ -20,7 +20,7 @@ zokou({
       },
       'caption': "💫 Always Active 🔥\n\n✨ Contact: " + _0x2512ee + "\n🙏 [Visit Channel](" + "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R" + ')',
       'audio': {
-        'url': "https://files.catbox.moe/xktd7q.mp3"
+        'url': "https://files.catbox.moe/78m0pv.mp3"
       },
       'mimetype': "audio/mpeg",
       'ptt': true,
@@ -50,7 +50,7 @@ zokou({
   }
 });
 console.log("WhatsApp bot is ready!");
-fana({
+zokou({
   'nomCom': "test",
   'reaction': '⬇️',
   'nomFichier': __filename
@@ -64,7 +64,7 @@ fana({
       },
       'caption': "💥 Always Active 💥\n\n🎙️ Contact: " + _0x4e00c7 + "\n🎙️ [Visit Channel](" + "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31" + ')',
       'audio': {
-        'url': "https://files.catbox.moe/xktd7q.mp3"
+        'url': "https://files.catbox.moe/78m0pv.mp3"
       },
       'mimetype': "audio/mpeg",
       'ptt': true,
