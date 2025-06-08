@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/v0gjyy.jpg",
+  "logo": "https://files.catbox.moe/lllpe3.jpg",
   "repository": "https://github.com/tryphonee/MTALEE-TMD1",
   "succes_url": "/",
   "stack": "container",
@@ -104,7 +104,7 @@
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/v0gjyy.jpg",
+      "value": "https://files.catbox.moe/lllpe3.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -114,12 +114,12 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547')",
-      "value": "255697993596,255784766591",
+      "value": "255697993596",
       "required": false
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "5",
+      "value": "3",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
