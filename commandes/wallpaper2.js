@@ -8,15 +8,15 @@ const {
 } = require("../framework/zokou");
 zokou({
   'nomCom': "wallpaper2",
-  'reaction': '🎞',
+  'reaction': '♥️',
   'nomFichier': __filename
 }, async (_0x280690, _0x2af0fc, _0x3db31b) => {
   console.log("Commande saisie !!!s");
   await _0x2af0fc.sendMessage(_0x280690, {
     'image': {
-      'url': "https://telegra.ph/file/c90fdab5f133a946d6f4f.jpg"
+      'url': "https://files.catbox.moe/lllpe3.jpg"
     },
-    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (𝗥𝗔𝗛𝗠𝗔𝗡𝗜-𝗠𝗗)🚗MADE BY 𝗥𝗔𝗛𝗠𝗔𝗡𝗜 𝗧𝗘𝗖𝗛"
+    'caption': "🚗𝗥𝗮𝗻𝗱𝗼𝗺 𝘄𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿 \n\n 🚘Download it and set it to your wallpaper 𝗙𝗿𝗼𝗺 (MATELEE-TMD)🚗MADE BY MATELEE"
   });
 });
 console.log("mon test");
