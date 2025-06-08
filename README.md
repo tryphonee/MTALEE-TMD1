@@ -1,19 +1,19 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-
-<p align="center">                                              𝚫𝚴𝐃𝚩𝚫𝐃-𝐌𝐃-𝐕1 
-
+𝛭𝛥𝑇𝛯𝐿𝛯𝛯 𝑇𝛭𝐷 𝑊𝛨𝛥𝑇𝑆𝛥𝛲𝛲 𝐵𝛩𝑇
+<p align="center">                                               
+𝛭𝛥𝑇𝛯𝐿𝛯𝛯 𝑇𝛭𝐷 𝑊𝛨𝛥𝑇𝑆𝛥𝛲𝛲 𝐵𝛩𝑇
 
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31">
-    <img alt=Support height="390" src="https://telegra.ph/file/7a6d5de6adcf7afd62620.jpg"> 
+    <img alt=Support height="390" src="https://files.catbox.moe/u51mv8.jpg"> 
     </p>
  
  
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines= 𝚫𝚴𝐃𝚩𝚫𝐃-𝚳𝐃-+𝚳𝚫𝐃𝚵+𝚰𝚴+𝚻𝚫𝚴𝚭𝚫𝚴𝚰𝚫+🇹🇿" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=MATELEE+TMD+WHATSAPP+BOT+🇹🇿" alt="Typing SVG" /></a>
 
 
 
