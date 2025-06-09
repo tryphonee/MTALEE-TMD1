@@ -21,7 +21,7 @@ zokou({
                  `• *Name:* ${s.OWNER_NAME}\n` +
                  `• *Date:* ${date}\n` +
                  `• *Time:* ${temps}\n\n` +
-                 `> *Powered by Rahmani Md*`;
+                 `> *Powered by MATELEE *`;
 
   try {
     const mediaUrl = await mybotpic();
@@ -35,7 +35,7 @@ zokou({
           gifPlayback: true,
           contextInfo: {
             externalAdReply: {
-              title: `Rahmani-Md Deployer`,
+              title: `MATELEE-TMD Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 2,
@@ -51,7 +51,7 @@ zokou({
           caption: infoMsg,
           contextInfo: {
             externalAdReply: {
-              title: `Rahmani-Md Deployer`,
+              title: `MATELEE-TMD Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 1,
