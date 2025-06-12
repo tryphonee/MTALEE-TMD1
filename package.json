@@ -1,13 +1,13 @@
 {
-  "name": "Bmw-md",
+  "name": "TimnasaTech",
   "version": "2.0.0",
   "description": "",
-  "main": "ibrahim.js",
+  "main": "timnasa.js",
   "scripts": {
-    "test": "node ibrahim.js",
+    "test": "node timnasa.js",
     "s": "node ibrahim.js",
-    "toshtech": "pm2 start ibrahim.js --attach",
-    "toshtech": "pm2 start ibrahim.js --attach",
+    "toshtech": "pm2 start timnasa.js --attach",
+    "toshtech": "pm2 start timnasa.js --attach",
     "c": "tsc"
   },
   "keywords": [
