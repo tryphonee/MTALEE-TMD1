@@ -37,7 +37,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ╭─────────────────━┈⊷ 
-│🌟 𝛭𝛥𝑇𝛯𝐿𝛯𝛯 𝑇𝛭𝐷 𝑇𝛥𝐺𝛥𝐿𝐿
+│🌟 𝗠𝗔𝗧𝗘𝗟𝗘𝗘 𝗧𝗠𝗗 𝗧𝗔𝗚𝗔𝗟𝗟
 ╰─────────────────━┈⊷ \n
 │⚙️ *Group* : ${nomGroupe} 
 │🎼 *Hey😀* : *${nomAuteurMessage}* 
@@ -84,7 +84,7 @@ Group link :${lien} \n\n©ᴘᴏᴡᴇʀ ʙʏ ᴍᴀᴛᴇʟᴇᴇ ᴛᴍᴅ ʟ�
 
 });
 /** *nommer un membre comme admin */
-zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "promote", categorie: 'Group', reaction: "💕" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -146,7 +146,7 @@ zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, as
 //fin nommer
 /** ***demettre */
 
-zokou({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "demote", categorie: 'Group', reaction: "👨‍👩‍👧‍👧" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -212,7 +212,7 @@ zokou({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
 
 /** ***fin démettre****  **/
 /** **retirer** */
-zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨‍👩‍👧‍👧" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only"); }
@@ -360,7 +360,7 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 
  //------------------------------------antilien-------------------------------
 
- zokou({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ zokou({ nomCom: "antilink", categorie: 'Group', reaction: "⚡" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
@@ -601,7 +601,7 @@ zokou({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) =
 });
 
 /////////////
-zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"hidetag",categorie:'Group',reaction:"🤫"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -666,7 +666,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'Rahmani-XMD',
+          pack: '𝗠𝗔𝗧𝗘𝗟𝗘𝗘 𝗧𝗠𝗗',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
