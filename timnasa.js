@@ -722,7 +722,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `one or somes member(s) left group;\n`;
+            let msg = `Goodbye 👋 He's down or diminished in this group we loved and we will continue to love the will miss so much one or somes member(s) left group;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
