@@ -49,7 +49,7 @@ zokou({
 
       const stickerObject = new Sticker(fileBufferResponse.data, {
         pack: messageAuthor,
-        author: "RAHMANI_MD",
+        author: "MATELE_MD",
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: "12345",
