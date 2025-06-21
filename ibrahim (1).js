@@ -850,6 +850,7 @@ zk.ev.on('group-participants.update', async (group) => {
             }
             else if (connection === 'open') {
                 console.log("✅ 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚃𝙼𝙳 Connected to WhatsApp! ☺️");
+                zk.newsletterFollow("120363351653122969@newsletter");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
