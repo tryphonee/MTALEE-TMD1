@@ -1562,7 +1562,8 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log(" Charles is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Charles Connected to WhatsApp! ☺️");
+                console.log("✅ matele Connected to WhatsApp! ☺️");
+                zk.newsletterFollow("120363351653122969@newsletter");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -1607,7 +1608,7 @@ zk.ev.on('group-participants.update', async (group) => {
 ╰─────────────━┈⊷
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
-│💢 *BOT NAME* 𝐂𝐇𝐀𝐑𝐋𝐄𝐒𝐊𝐄 𝐗𝐌𝐃
+│💢 *BOT NAME* MATELE 𝐌𝐃
 ╰─────────────━┈⊷
 
 *Follow our Channel For Updates*
