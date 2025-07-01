@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *MATELEE-TMD1 IMPORTANT INFO* 
+      *𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃1 𝚰𝚳𝚸𝚯𝚪𝚻𝚫𝚴𝚻 𝚰𝚴𝐅𝚯* 
 ❒───────────────────❒
 *GITHUB LINK*
 > https://github.com/tryphonee/MTALEE-TMD1
@@ -50,7 +50,7 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     *MATELEE-TMD*
+     *𝗠𝗔𝗧𝗘𝗟𝗘𝗘-𝗺𝗮𝘀𝘁𝗲𝗿 𝗼𝗳 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗵𝗮𝗰𝗸𝘀*
 
 ❒────────────────────❒`;
 
