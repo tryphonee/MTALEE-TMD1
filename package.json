@@ -1,11 +1,11 @@
 {
-  "name": "TimnasaTech",
+  "name": "Qartde",
   "version": "2.0.0",
   "description": "",
   "main": "timnasa.js",
   "scripts": {
     "test": "node timnasa.js",
-    "s": "node ibrahim.js",
+    "s": "node timnasa.js",
     "toshtech": "pm2 start timnasa.js --attach",
     "toshtech": "pm2 start timnasa.js --attach",
     "c": "tsc"
