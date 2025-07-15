@@ -207,7 +207,7 @@ if (conf.AUTOREACT_STATUS=== "yes") {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\MATELEE TMD ONLINE");
+            console.log("MATELEE TMD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
