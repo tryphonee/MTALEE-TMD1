@@ -217,7 +217,7 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*matele-MD*\n
+      caption: `\n*𝗠𝗔𝗧𝗘𝗟𝗘𝗘 𝗺𝗮𝘀𝘁𝗲𝗿 𝗼𝗳 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗵𝗮𝗰𝗸𝘀*\n
 `,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
@@ -234,10 +234,10 @@ zokou({
         },
       },
       {
-      caption: `\n*matele-MUSIC HUB*\n
+      caption: `\n*𝗠𝗔𝗧𝗘𝗟𝗘𝗘 𝗺𝗮𝘀𝘁𝗲𝗿 𝗼𝗳 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗵𝗮𝗰𝗸𝘀*\n
 
 
-> 💙POWERED BY ®charleske ❎`,
+> 💙POWERED BY 𝗠𝗔𝗧𝗘𝗟𝗘𝗘 𝗺𝗮𝘀𝘁𝗲𝗿 𝗼𝗳 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗵𝗮𝗰𝗸𝘀 ❎`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
