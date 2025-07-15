@@ -103,7 +103,7 @@
 
 
 {
-  "name": "CHARLES XMD",
+  "name": "Charles",
   "version": "2.0.0",
   "description": "WhatsApp Multi Device Bot",
   "main": "Charles.js",
@@ -121,7 +121,7 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "author": "CHARLES XMD",
+  "author": "charles",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -132,7 +132,7 @@
     "@xct007/tiktok-scraper": "^1.0.2",  
     "@hapi/boom": "^10.0.1",
     "@types/node": "^18.0.6",
-    "@whiskeysockets/baileys": "github:devibraah/bwmxmdtech",
+    "@whiskeysockets/baileys": "npm:baileys@6.7.18",
     "ytdl-core": "npm:@distube/ytdl-core",
     "@google/generative-ai": "^0.1.3",
     "@xaviabot/fb-downloader": "^1.0.14",
