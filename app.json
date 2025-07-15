@@ -1,6 +1,6 @@
 {
-  "name":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎 𝙓𝙈𝘿",
-  "description":"Best whatsapp bot💥 developed by Charles ke🇰🇪",
+  "name":"MATELEE T𝙈𝘿1",
+  "description":"Best whatsapp bot💥 developed by MATELEE",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
   "repository":"https://github.com/ekitale/maths-project",
@@ -65,7 +65,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎 𝙓𝙈𝘿",
+      "value":"MATELE TMD1",
       "required":false
 
     } ,
