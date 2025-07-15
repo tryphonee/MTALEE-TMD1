@@ -1110,7 +1110,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `CHARLESKE-XMD is online! 🚀\n${currentDateTime}`; // Format the bio text
+        const bioText = `MATELE MD is online! 🚀\n${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -1688,7 +1688,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*CHARLESKE-XMD- WELCOME MESSAGE*`;
+            let msg = `*MTALEE MD- WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -1824,7 +1824,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("Charles is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Charleske xmd Connected to WhatsApp! ☺️");
+                console.log("✅ matelee md Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -1865,7 +1865,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =` ⁠⁠⁠⁠
 ╭─────────────━┈⊷ 
-│ *CHARLESKE-XMD BOT CONNECTED*
+│ * MTALEE MD BOT CONNECTED*
 ╰─────────────━┈⊷
 │ ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │ ᴍᴏᴅᴇ: *${md}*
