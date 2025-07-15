@@ -1,5 +1,5 @@
 {
-  "name": "MTELEE-TMD",
+  "name": "𝚳𝚫𝚻𝚵𝐋𝚵𝚵--𝚻𝚳𝐃",
   "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/lllpe3.jpg",
+  "logo": "https://files.catbox.moe/ejm45q.jpg",
   "repository": "https://github.com/tryphonee/MTALEE-TMD1",
   "succes_url": "/",
   "stack": "container",
@@ -74,7 +74,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "MATELEE-TMD",
+      "value": "𝚳𝚫𝚻𝚵𝐋𝚵𝚵--𝚻𝚳𝐃",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -99,7 +99,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "MATELEE-TMD",
+      "value": "𝚳𝚫𝚻𝚵𝐋𝚵𝚵--𝚻𝚳𝐃",
       "required": false
     },
     "URL": {
