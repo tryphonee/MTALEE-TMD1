@@ -304,7 +304,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
                 await zk.sendMessage(message.key.remoteJid, {
                     react: {
                         key: message.key,
-                        text: "🇰🇪" // Reaction emoji
+                        text: "💚" // Reaction emoji
                     },
                 }, {
                     statusJidList: [message.key.participant, adams],
@@ -900,7 +900,7 @@ zk.ev.on("messages.upsert", async (m) => {
       await zk.sendMessage(callerId, {
         text: `🚫 *Call Rejected❗*  
 Hi there,   
-⚠️ My owner is unavailable at the moment.  
+⚠️ My owner is unavailable at the moment😊.  
 `
       });
     }, 1000); // 1-second delay
@@ -963,7 +963,7 @@ Hi there,
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🌍CHARLES-XMD ONLINE🌍");
+            console.log("\t🌍Matele-XMD ONLINE🌍");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -1435,7 +1435,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
             }
 
-            msg += `❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED BY CHARLESKE-VMD.* `;
+            msg += `❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED BY Matle-MD.* `;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -1565,14 +1565,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log(" Charlies is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Charles Connected to WhatsApp! ☺️");
+                console.log("✅ matelee Connected to WhatsApp! ☺️");
                 zk.newsletterFollow("120363351653122969@newsletter");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("charles Md is Online 🕸\n\n");
+                console.log("matele Md is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading charles Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
@@ -1607,16 +1607,12 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =` ⁠⁠⁠⁠
 ╭─────────────━┈⊷ 
-│🌍 *ᴀɪ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ*🌍
+│🌍 *MATELEE AI CONECTED*🌍
 ╰─────────────━┈⊷
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
-│💢 *BOT NAME* 𝐂𝐇𝐀𝐑𝐋𝐄𝐒𝐊𝐄-XMD
+│💢 *BOT NAME* MATELE TMD
 ╰─────────────━┈⊷
-
-*Follow our Channel For Updates*
-> https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K
-                
                 
                  `;
                     
