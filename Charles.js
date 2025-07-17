@@ -1978,7 +1978,7 @@ const {
                 console.log("------------------/-----");
                 console.log("CHARLESKE-XMD is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading CHARLESKE-XMD Commands ...\n");
+                console.log("Loading MTALEE-TMD1 Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
