@@ -1365,7 +1365,7 @@ if (conf.AUDIO_REPLY === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const abu1 = '255752593977';
+            const cha1 = '254759626063';
             const abu2 = '255752593977';
             const abu3 = "255752593977";
             const abu4 = '255752593977';
@@ -1970,7 +1970,7 @@ const {
                 console.log("ℹ️ CHARLESKE-XMD is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ CHARLESKE-XMD Connected to WhatsApp! ☺️");
+                console.log("✅ MATELE MD Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -2011,12 +2011,12 @@ const {
 
                 let cmsg =` ⁠⁠⁠⁠
 ╭─────────────━┈⊷ 
-│*CHARLESKE-XMD*
+│*MATELEE-TMD*
 ╰─────────────━┈⊷
 │ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │ᴍᴏᴅᴇ: *${md}*
-│ʙᴏᴛ ɴᴀᴍᴇ: *Charles md*
-│ᴏᴡɴᴇʀ : *Charles tech*
+│ʙᴏᴛ ɴᴀᴍᴇ: *MATELE TECH*
+│ᴏᴡɴᴇʀ : *MATELEE*
 ╰─────────────━┈⊷
                 
                 
