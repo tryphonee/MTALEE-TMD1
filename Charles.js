@@ -239,13 +239,13 @@ async function getAIResponse(query) {
             // If JSON parse fails, try to get as text
             const textResponse = await response.text();
             return isIdentityQuestion 
-                ? `I'm CHARLESKE-XMD, created by Ibrahim Adams! 🚀\n\n${textResponse}`
+                ? `I'm MATELE MD, created by charles! 🚀\n\n${textResponse}`
                 : textResponse;
         }
     } catch (error) {
         console.error("API Error:", error);
         return isIdentityQuestion 
-            ? "I'm CHARLESKE-XMD, created by Ibrahim Adams! 🚀"
+            ? "I'm Matele MD, created by charles! 🚀"
             : "Sorry, I couldn't get a response right now";
     }
 }
@@ -385,7 +385,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `Dullah_Md is running 🚗\n${currentDateTime}`; // Format the bio text
+        const bioText = `matele_Md is running 🚗\n${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -400,7 +400,7 @@ setInterval(async () => {
 
     await zk.rejectCall(callId, callerId);
     await zk.sendMessage(callerId, {
-      text: "Hello😊,am CHARLESKE-XMD a personal assistant,please try again later"
+      text: "CALL REJECTED ❗"
     });
   }
 });
