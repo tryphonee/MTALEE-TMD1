@@ -231,7 +231,7 @@ async function getAIResponse(query) {
             }
 
             if (isIdentityQuestion) {
-                aiResponse = `I'm DULLAH-XMD, created by Ibrahim Adams! 🚀\n\n${aiResponse}`;
+                aiResponse = `I'm Matele XMD, created by charles! 🚀\n\n${aiResponse}`;
             }
             
             return aiResponse;
@@ -1978,8 +1978,8 @@ const {
                 console.log("------------------/-----");
                 console.log("CHARLESKE-XMD is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading MTALEE-TMD1 Commands ...\n");
-                fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
+                console.log("Loading MTALEE Commands ...\n");
+                fs.readdirSync(__dirname + "/Commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
