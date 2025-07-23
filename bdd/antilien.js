@@ -39,7 +39,9 @@ createAntilienTable();
 
 
 async function ajouterOuMettreAJourJid(jid, etat) {
-  const client = await pool.connect();
+  const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+});
   
   try {
     // Vérifiez si le jid existe déjà dans la table 'antilien'
