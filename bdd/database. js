@@ -1,0 +1,14 @@
+// bdd/database.js
+const { Pool } = require('pg');
+
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: false // This is necessary for Render's external Postgres connections
+    }
+});
+
+module.exports = {
+    // This function allows you to execute SQL queries using the connection pool
+    query: (text, params) => pool.query(text, params),
+};
