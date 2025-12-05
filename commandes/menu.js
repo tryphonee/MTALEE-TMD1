@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "pop", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
->  HANS-MD AVAILABLE MENUS* 
+*ᴍᴇɴᴜ ʟɪ𝘀ᴛ ᴏғғ ᴍᴀᴛᴇʟᴇ ᴍᴀ𝘀ᴛᴇʀ ᴏғ ᴅɪɢɪᴛᴀʟ* 
 ╭─────────────────
 │❒⁠⁠⁠⁠╭─────────────
 │❒⁠⁠⁠⁠│▸ *MENU* 
@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│▸ *PLUGINS* : ${cm.length} 
 │❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
-│❒⁠⁠⁠⁠│▸ *THEME* : *ANDBADTHEMES*
+│❒⁠⁠⁠⁠│▸ *THEME* : **
 │❒⁠⁠⁠⁠╰──────────────
 ╰──────────────────\n`;
     
@@ -54,16 +54,16 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭────────❒⁠⁠⁠⁠ *${cat}* ✣`;
+        menuMsg += ` ╭────────❒⁠⁠⁠⁠ *${cat}* ●`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│❒⁠⁠⁠⁠│▸ ${cmd}`;
+│○│▸ ${cmd}`;
         }
         menuMsg += `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> MADE BY HANS TECH
+    menuMsg += `*ᴍᴀᴛᴇʟᴇᴇ ᴍᴀsᴛᴇʀ ᴏғ ᴅɪɢɪᴛᴀʟ ʜᴀᴄᴋs*
 `;
 
    var lien = mybotpic();
