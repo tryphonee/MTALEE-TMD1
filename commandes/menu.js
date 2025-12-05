@@ -1,1 +1,192 @@
-const _0x1a606a=_0x205f;function _0x9204(){const _0x56c5e7=['1447200lotEBs','262508bBMpFJ','yes','45jMhJXL','\x20\x20\x20\x20\x0a┃\x20❒\x20\x20🖥️\x20\x20▸\x20*SYSTEM*\x20\x20\x20:\x20','push','165882zhUHUg','\x0a╰───────────────▸▸\x20\x0a','/../framework/zokou','freemem','map','toLowerCase','categorie','144pgWWCZ','HH:mm:ss','🥵🥵\x20Menu\x20error:\x20','audio/mp4','fs-extra','DD/MM/YYYY','match','/../framework/mesfonctions','log','1719400UmdAke','MODE','NOBODY*,\x20developed\x20by\x20Rahmany','\x20╭─────❒\x20*','\x0a╭────────────────────────╮\x20\x20\x0a│\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20│\x20\x20\x0a│\x20\x20𝖂𝕰𝕷𝕮𝕺𝕸𝕰\x20𝕿𝕺\x20𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃│\x20\x20\x0a╰────────────────────────╯\x20\x20\x0a\x0a╭━━❰\x20*AVAILABLE\x20MENU*\x20❱━━╮\x20\x20\x0a┃\x20❒\x20\x20✅\x20▸\x20*MENU*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a┃\x20=======================\x0a┃\x20❒\x20\x20🔌\x20▸\x20*PLUGINS*\x20\x20:\x20','https://files.catbox.moe/1hdfta.mp3','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a┃\x20❒\x20\x20🎨\x20▸\x20*THEME*\x20\x20\x20\x20:\x20𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃\x20\x20\x0a╰━━━━━━━━━━━━━━━━━━━━━━╯\x20\x20\x0a\x0a📌\x20_*Type\x20the\x20command\x20to\x20proceed.*_\x20\x20\x0a════════════════════════\x20\x20\x0a🪡𝕯𝖔\x20𝖘𝖔𝖒𝖊𝖙𝖍𝖎𝖓𝖌\x20𝖙𝖔𝖉𝖆𝖞\x20𝖋𝖔𝖗\x20𝖆\x20𝖇𝖊𝖙𝖙𝖊𝖗\x20𝖞𝖔𝖒𝖔𝖗𝖗𝖔𝖜\x0a════════════════════════\x0a','8NRnpTH','\x0a││▸\x20','private','*\x20✣','length','General','repeat','sendMessage','>\x20BOT\x20CREATED\x20*Rahmany*\x0a','21NlBEZP','1764367DPPiDh','372686PiiURn','format','\x20\x20\x20\x0a┃\x20❒\x20\x20💾\x20▸\x20*RAM*\x20\x20\x20\x20\x20\x20:\x20','\x0a\x20*COMMANDS*','/../set','189AeWRHo','4247296QkIDdA','fromCharCode','public','platform','totalmem'];_0x9204=function(){return _0x56c5e7;};return _0x9204();}function _0x205f(_0x2552c2,_0x43008d){_0x2552c2=_0x2552c2-0xfe;const _0x920444=_0x9204();let _0x205f47=_0x920444[_0x2552c2];return _0x205f47;}(function(_0x26b163,_0x374d6d){const _0x480684=_0x205f,_0x8ea318=_0x26b163();while(!![]){try{const _0x4082e8=parseInt(_0x480684(0xff))/0x1+parseInt(_0x480684(0x126))/0x2*(parseInt(_0x480684(0x124))/0x3)+parseInt(_0x480684(0x11b))/0x4*(parseInt(_0x480684(0xfe))/0x5)+parseInt(_0x480684(0x104))/0x6*(-parseInt(_0x480684(0x12b))/0x7)+parseInt(_0x480684(0x12c))/0x8+parseInt(_0x480684(0x101))/0x9*(parseInt(_0x480684(0x114))/0xa)+-parseInt(_0x480684(0x125))/0xb*(parseInt(_0x480684(0x10b))/0xc);if(_0x4082e8===_0x374d6d)break;else _0x8ea318['push'](_0x8ea318['shift']());}catch(_0x4f6ea1){_0x8ea318['push'](_0x8ea318['shift']());}}}(_0x9204,0xd3390));function hi(){const _0x5a571f=_0x205f;console[_0x5a571f(0x113)]('Hello\x20World!');}hi();const util=require('util'),fs=require(_0x1a606a(0x10f)),{zokou}=require(__dirname+_0x1a606a(0x106)),{format}=require(__dirname+_0x1a606a(0x112)),os=require('os'),moment=require('moment-timezone'),s=require(__dirname+_0x1a606a(0x12a)),more=String[_0x1a606a(0x12d)](0x200e),readmore=more[_0x1a606a(0x121)](0xfa1);zokou({'nomCom':'menu','categorie':_0x1a606a(0x120)},async(_0x18e11e,_0x21507c,_0x17fdaf)=>{const _0xc87d77=_0x1a606a;let {ms:_0xa8f9a,repondre:_0x5182b4,prefixe:_0x501f4e,nomAuteurMessage:_0x11c8e8,mybotpic:_0x55f4a9}=_0x17fdaf,{cm:_0x499bba}=require(__dirname+_0xc87d77(0x106));var _0x24c732={},_0x51f6fb=_0xc87d77(0x12e);s[_0xc87d77(0x115)][_0xc87d77(0x109)]()!==_0xc87d77(0x100)&&(_0x51f6fb=_0xc87d77(0x11d));_0x499bba[_0xc87d77(0x108)](_0x3f0be5=>{const _0x417739=_0xc87d77;if(!_0x24c732[_0x3f0be5['categorie']])_0x24c732[_0x3f0be5[_0x417739(0x10a)]]=[];_0x24c732[_0x3f0be5[_0x417739(0x10a)]][_0x417739(0x103)](_0x3f0be5['nomCom']);}),moment['tz']['setDefault']('Etc/GMT');const _0x25581c=moment()['format'](_0xc87d77(0x10c)),_0x5414b2=moment()[_0xc87d77(0x127)](_0xc87d77(0x110));let _0x5770d5=_0xc87d77(0x118)+_0x499bba[_0xc87d77(0x11f)]+_0xc87d77(0x128)+format(os[_0xc87d77(0x130)]()-os[_0xc87d77(0x107)]())+'/'+format(os[_0xc87d77(0x130)]())+_0xc87d77(0x102)+os[_0xc87d77(0x12f)]()+_0xc87d77(0x11a),_0x213ff5=_0xc87d77(0x129)+readmore+'\x0a';for(const _0x4cc913 in _0x24c732){_0x213ff5+=_0xc87d77(0x117)+_0x4cc913+_0xc87d77(0x11e);for(const _0x1116d9 of _0x24c732[_0x4cc913]){_0x213ff5+=_0xc87d77(0x11c)+_0x1116d9;}_0x213ff5+=_0xc87d77(0x105);}_0x213ff5+=_0xc87d77(0x123);const _0x2e4070=_0x55f4a9(),_0x4d64ee=_0xc87d77(0x119);try{if(_0x2e4070[_0xc87d77(0x111)](/\.(mp4|gif)$/i))await _0x21507c['sendMessage'](_0x18e11e,{'video':{'url':_0x2e4070},'caption':_0x5770d5+_0x213ff5,'footer':_0xc87d77(0x116),'gifPlayback':!![]},{'quoted':_0xa8f9a});else _0x2e4070[_0xc87d77(0x111)](/\.(jpeg|png|jpg)$/i)?await _0x21507c[_0xc87d77(0x122)](_0x18e11e,{'image':{'url':_0x2e4070},'caption':_0x5770d5+_0x213ff5,'footer':'NOBODY*,\x20developed\x20by\x20Rahmany'},{'quoted':_0xa8f9a}):await _0x5182b4(_0x5770d5+_0x213ff5);await _0x21507c[_0xc87d77(0x122)](_0x18e11e,{'audio':{'url':_0x4d64ee},'mimetype':_0xc87d77(0x10e),'ptt':![]},{'quoted':_0xa8f9a});}catch(_0x313220){console[_0xc87d77(0x113)](_0xc87d77(0x10d)+_0x313220),_0x5182b4('🥵🥵\x20Menu\x20error:\x20'+_0x313220);}});
+const util = require('util');
+
+const fs = require('fs-extra');
+
+const { zokou } = require(__dirname + "/../framework/zokou");
+
+const { format } = require(__dirname + "/../framework/mesfonctions");
+
+const os = require("os");
+
+const moment = require("moment-timezone");
+
+const s = require(__dirname + "/../set");
+
+
+
+zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//zokou");
+
+    var coms = {};
+
+    var mode = "public";
+
+    
+
+    if ((s.MODE).toLocaleLowerCase() != "yes") {
+
+        mode = "private";
+
+    }
+
+
+
+
+
+    
+
+
+
+    cm.map(async (com, index) => {
+
+        if (!coms[com.categorie])
+
+            coms[com.categorie] = [];
+
+        coms[com.categorie].push(com.nomCom);
+
+    });
+
+
+
+    moment.tz.setDefault(s.TZ);
+
+
+
+// Créer une date et une heure en GMT
+
+const temps = moment().format('HH:mm:ss');
+
+const date = moment().format('DD/MM/YYYY');
+
+
+
+  let infoMsg =  `
+
+╔════➻⊷➻════──❂
+║ ⦿━═━❖ *MR-𝙴𝙻𝙻𝚈-𝚇𝙼𝙳* ❖━═━⦿
+║ ┃✯𝕄𝕠𝕕𝕖: ${mode}
+║ ┃✯𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
+║ ┃✯𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
+║ ┃✯ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
+║ ┃✯𝔻𝕒𝕥𝕖 : ${date}
+║ ┃✯𝕋𝕚𝕞𝕖 : ${temps}
+║ ┃✯𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
+║ ┃✯ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+║ ┃✯ℍ𝕠𝕤𝕥 : ${os.platform()}
+║ ⦿━━━━═════━━━━⦿
+╚════➻⊷➻════───❂\n\n`;
+
+
+    
+
+let menuMsg = `
+╭──━━✣━━────❍ 
+│╔════➳════╗
+│║❖ _*MR-𝙴𝙻𝙻𝚈-𝚇𝙼𝙳*_
+│╚════➳════╝
+╰──━━✣━━────❍\n
+
+
+`;
+
+
+
+    for (const cat in coms) {
+
+        menuMsg += ` ╔═━━═❍ _*${cat}*_ ❍═━━══➻`;
+
+        for (const cmd of coms[cat]) {
+            
+            menuMsg += `
+║❖ ${cmd}`;
+
+        }
+
+        menuMsg += `
+╚══━━━━════───➳
+❍══════✣══════❍ 
+║❖❖❖❖❖❖❖❖❖❖❖║
+❍══════✣══════❍ 
+✣━━━━━━━━━━━━━✣\n`
+
+    }
+
+
+
+    menuMsg += `
+
+
+ ❖═══════════════❖
+ ║✣ _*𝙴𝙻𝙻𝚈-𝚇𝙼𝙳 𝟚𝟘𝟚5*_
+ ║✣ _*𝕖𝕟𝕛𝕠𝕪 𝕝𝕚𝕗𝕖*_ 
+ ❖═══════════════❖
+ ❍━━━━═══════━━━━❍ 
+ ┃╔══════════════╗
+ ┃║❖ _*𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𓆏elly 𝕋𝕖𝕒𝕞𓆏*_
+ ┃╚══════════════╝
+ ❍━━━━═══════━━━━❍ \n
+
+
+`;
+
+
+
+   var lien = mybotpic();
+
+
+
+   if (lien.match(/\.(mp4|gif)$/i)) {
+
+    try {
+
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *B.M.B-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
+
+    }
+
+    catch (e) {
+
+        console.log("🥵🥵 Menu error " + e);
+
+        repondre("🥵🥵 Menu error " + e);
+
+    }
+
+} 
+
+// Vérification pour .jpeg ou .png
+
+else if (lien.match(/\.(jpeg|png)$/i)) {
+
+    try {
+
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *B.M.B-bot*, déveloper cod3uchiha" }, { quoted: ms });
+
+    }
+
+    catch (e) {
+
+        console.log("🥵🥵 Menu error " + e);
+
+        repondre("🥵🥵 Menu error " + e);
+
+    }
+
+} 
+
+else {
+
+    
+
+    repondre(infoMsg + menuMsg);
+
+    
+
+}
+
+
+
+});
