@@ -6,68 +6,95 @@ const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-const more = String.fromCharCode(8206);
-const readMore = more.repeat(4001);
-
-zokou({ nomCom: "matele", categorie: "General" }, async (dest, zk, commandeOptions) => {
-    let { ms, repondre, prefixe, nomAuteurMessage } = commandeOptions;
-    let { cm } = require(__dirname + "/../framework/zokou");
+zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+    let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
-    var mode = (s.MODE.toLowerCase() === "yes") ? "public" : "private";
+    var mode = "public";
+    
+    if ((s.MODE).toLocaleLowerCase() != "yes") {
+        mode = "private";
+    }
 
-    cm.map((com) => {
-        if (!coms[com.categorie]) coms[com.categorie] = [];
+
+    
+
+    cm.map(async (com, index) => {
+        if (!coms[com.categorie])
+            coms[com.categorie] = [];
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Africa/Nairobi");
-    const temps = moment().format('HH:mm:ss');
-    const date = moment().format('DD/MM/YYYY');
+    moment.tz.setDefault('Etc/GMT');
 
-    let infoMsg = `╭━━━━━━━━━━━━━⬣
-┃ 🦠 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 
-┃━━━━━━━━━━━━━⬣
-┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃*
-┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
-┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
-┃ ⌨ ᴾʳᵉᶠⁱˣ: *[ ${prefixe} ]*
-┃ 💻 ᴾˡᵃᵗᶠᵒʳᵐ: *${os.platform()}*
-┃ 📅 ᴰᵃᵗᵉ: *${date}*
-┃ ⏳ ᵀⁱᵐᵉ: *${temps}*
-┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
-┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
-┃ 👑 ᴼʷⁿᵉʳ: *matele*
-╰━━━━━━━━━━━━━⬣
+// Créer une date et une heure en GMT
+const temps = moment().format('HH:mm:ss');
+const date = moment().format('DD/MM/YYYY');
 
-${readMore}
-🛠 *Available Commands* 🛠
-━━━━━━━━━━━━━━━━━━━━n`;
+  let infoMsg =  `
+╭────《《HANS-MD》》────
+┴  ╭─────────────
+│❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
+│❒│⁠⁠⁠⁠ *CALENDER* : ${date}
+│❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
+│❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
+│❒│⁠⁠⁠⁠ *ORDERS* : ${cm.length} 
+│❒│⁠⁠⁠⁠ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
+│❒│⁠⁠⁠⁠ *THEME* : *HANSTZ*
+┬  ╰──────────────
+╰─── ··《《HANS-MD》》··──\n`;
+    
+let menuMsg = `
+ ─────────
+  *BOT BY HANSTZ TECH* 
+ ─────────
 
-    let menuMsg = ``;
+
+ *ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊*
+`;
 
     for (const cat in coms) {
-        menuMsg += `⭐ *${cat.toUpperCase()}*\n`;
-        // Group commands in pairs for better display
-        for (let i = 0; i < coms[cat].length; i += 2) {
-            const cmd1 = coms[cat][i] || '';
-            const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
-            menuMsg += `➤ .${cmd1} ${cmd2}\n`;
+        menuMsg += ` ╭─⬡ *${cat}* ⬡─`;
+        for (const cmd of coms[cat]) {
+            menuMsg += `
+⬡│▸ *${cmd}*`;
         }
-        menuMsg += `━━━━━━━━━━━━━━━━━━━━n`;
+        menuMsg += `
+  ╰────────────·· \n`
     }
 
-    menuMsg += `🌙 Good night! Sleep well and recharge! 😴`;
+    menuMsg += `
 
-    let imageUrl = "ttps://files.catbox.moe/ejm45q.jpg";
+|⏣MADE BY HANS TECH
+*❒⁠⁠⁠⁠—————————— ❒⁠⁠⁠⁠——————————❒⁠⁠⁠⁠*
+`;
 
+   var lien = mybotpic();
+
+   if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { 
-            image: { url: imageUrl }, 
-            caption: infoMsg + menuMsg, 
-            footer: "© 𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃" 
-        }, { quoted: ms });
-    } catch (e) {
-        console.log("🥵 Menu error: " + e);
-        repondre("🥵 Menu error: " + e);
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *hans-md*, déveloper hans Tech" , gifPlayback : true }, { quoted: ms });
     }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+// Vérification pour .jpeg ou .png
+else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
+    try {
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *hans-md*, déveloper Hans Tech" }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+else {
+    
+    repondre(infoMsg + menuMsg);
+    
+}
+
 });
