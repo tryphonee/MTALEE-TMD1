@@ -1,185 +1,73 @@
 const util = require('util');
-
 const fs = require('fs-extra');
-
-const { framework } = require(__dirname + "/../framework/zokou");
-
+const { zokou } = require(__dirname + "/../framework/zokou");
 const { format } = require(__dirname + "/../framework/mesfonctions");
-
 const os = require("os");
-
 const moment = require("moment-timezone");
-
 const s = require(__dirname + "/../set");
 
+const more = String.fromCharCode(8206);
+const readMore = more.repeat(4001);
 
-
-timoth({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
-
-    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-
-    let { cm } = require(__dirname + "/../framework//zokou");
-
+zokou({ nomCom: "matele", categorie: "General" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre, prefixe, nomAuteurMessage } = commandeOptions;
+    let { cm } = require(__dirname + "/../framework/zokou");
     var coms = {};
+    var mode = (s.MODE.toLowerCase() === "yes") ? "public" : "private";
 
-    var mode = "public";
-
-    
-
-    if ((s.MODE).toLocaleLowerCase() != "yes") {
-
-        mode = "private";
-
-    }
-
-
-
-
-
-    
-
-
-
-    cm.map(async (com, index) => {
-
-        if (!coms[com.categorie])
-
-            coms[com.categorie] = [];
-
+    cm.map((com) => {
+        if (!coms[com.categorie]) coms[com.categorie] = [];
         coms[com.categorie].push(com.nomCom);
-
     });
 
+    moment.tz.setDefault("Africa/Nairobi");
+    const temps = moment().format('HH:mm:ss');
+    const date = moment().format('DD/MM/YYYY');
 
+    let infoMsg = `╭━━━━━━━━━━━━━⬣
+┃ 🦠 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 
+┃━━━━━━━━━━━━━⬣
+┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃*
+┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
+┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
+┃ ⌨ ᴾʳᵉᶠⁱˣ: *[ ${prefixe} ]*
+┃ 💻 ᴾˡᵃᵗᶠᵒʳᵐ: *${os.platform()}*
+┃ 📅 ᴰᵃᵗᵉ: *${date}*
+┃ ⏳ ᵀⁱᵐᵉ: *${temps}*
+┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
+┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
+┃ 👑 ᴼʷⁿᵉʳ: *matele*
+╰━━━━━━━━━━━━━⬣
 
-    moment.tz.setDefault(s.TZ);
+${readMore}
+🛠 *Available Commands* 🛠
+━━━━━━━━━━━━━━━━━━━━n`;
 
-
-
-// Créer une date et une heure en GMT
-
-const temps = moment().format('HH:mm:ss');
-
-const date = moment().format('DD/MM/YYYY');
-
-
-
-  let infoMsg =  `
-
-╭──━━━━══════━━━━❂
-┃ ━━⦿ *ᴛɪᴍɴᴀsᴀ ᴛᴍᴅ* ⦿━━
-┃ ✯𝕄𝕠𝕕𝕖: ${mode}
-┃ ✯𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
-┃ ✯𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-┃ ✯ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
-┃ ✯𝔻𝕒𝕥𝕖 : ${date}
-┃ ✯𝕋𝕚𝕞𝕖 : ${temps}
-┃ ✯𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
-┃ ✯ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ✯ℍ𝕠𝕤𝕥 : ${os.platform()}
-┃ ⦿━━━━═════━━━━⦿
-╰──━━━━══════━━━━❂\n\n`;
-
-
-    
-
-let menuMsg = `
-┏━━══════━━┓
-┃⦿ _*ᴛɪᴍɴᴀsᴀ ᴛᴍᴅ*_
-┗━━══════━━┛\n
-
-
-`;
-
-
+    let menuMsg = ``;
 
     for (const cat in coms) {
-
-        menuMsg += `╭─━━═━❍ _*${cat}*_ ❍━═━━─⊷`;
-
-        for (const cmd of coms[cat]) {
-            
-            menuMsg += `
-┃❂ ${cmd}`;
-
+        menuMsg += `⭐ *${cat.toUpperCase()}*\n`;
+        // Group commands in pairs for better display
+        for (let i = 0; i < coms[cat].length; i += 2) {
+            const cmd1 = coms[cat][i] || '';
+            const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
+            menuMsg += `➤ .${cmd1} ${cmd2}\n`;
         }
-
-        menuMsg += `
-╰─━━━━══════━━━━⦿\n`
-
+        menuMsg += `━━━━━━━━━━━━━━━━━━━━n`;
     }
 
+    menuMsg += `🌙 Good night! Sleep well and recharge! 😴`;
 
-
-    menuMsg += `
-
-
- ╭──━━══════━━━━┓
- ┃⦿ _*ᴛɪᴍɴᴀsᴀ ᴛᴍᴅ 𝟚𝟘𝟚𝟜*_
- ┃⦿ _*𝕖𝕟𝕛𝕠𝕪 𝕝𝕚𝕗𝕖*_ 
- ╰──━━══════━━━┳┛
- ╭──━━══════━━━┻┓
- ┃⦿ _*𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𖣘ᴛɪᴍɴᴀsᴀ ᴛᴍᴅ𖣘*_
- ╰──━━══════━━━━┛\n
-
-
-`;
-
-
-
-   var lien = mybotpic();
-
-
-
-   if (lien.match(/\.(mp4|gif)$/i)) {
+    let imageUrl = "ttps://files.catbox.moe/ejm45q.jpg";
 
     try {
-
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
-
+        zk.sendMessage(dest, { 
+            image: { url: imageUrl }, 
+            caption: infoMsg + menuMsg, 
+            footer: "© 𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃" 
+        }, { quoted: ms });
+    } catch (e) {
+        console.log("🥵 Menu error: " + e);
+        repondre("🥵 Menu error: " + e);
     }
-
-    catch (e) {
-
-        console.log("🥵🥵 Menu error " + e);
-
-        repondre("🥵🥵 Menu error " + e);
-
-    }
-
-} 
-
-// Vérification pour .jpeg ou .png
-
-else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
-
-    try {
-
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
-
-    }
-
-    catch (e) {
-
-        console.log("🥵🥵 Menu error " + e);
-
-        repondre("🥵🥵 Menu error " + e);
-
-    }
-
-} 
-
-else {
-
-    
-
-    repondre(infoMsg + menuMsg);
-
-    
-
-}
-
-
-
 });
-
