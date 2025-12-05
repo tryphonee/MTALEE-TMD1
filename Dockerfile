@@ -18,4 +18,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "charles.js"]
+CMD ["node", "index.js"]
