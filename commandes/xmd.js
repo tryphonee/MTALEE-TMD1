@@ -5,8 +5,8 @@ const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-const more = String.fromCharCode(8206)
-const readmore = more.repeat(4001)
+const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
 
 zokou({ nomCom: "xmd", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭──────────────────✰
-┊✰───*𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃*────✰
+┊✰───*ᴍᴀᴛᴇʟᴇᴇ ᴍᴀsᴛᴇʀ ᴏғ ᴅɪɢɪᴛᴀʟ ʜᴀᴄᴋs*────✰
 ┊✍︎┊ *𝙐𝙎𝙀𝙍* : ${s.OWNER_NAME}
 ┊✍︎┊ *𝙈𝙊𝘿𝙀* : ${mode}
 ┊✰───────────────✰
@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰──────────────────✰ \n\n`;
  
     let menuMsg=`  
-  *𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎*
+  *ᴍᴇɴᴜ ʟɪ𝘀ᴛ ᴏғғ ᴍᴀᴛᴇʟᴇ ᴍᴀ𝘀ᴛᴇʀ ᴏғ ᴅɪɢɪᴛᴀʟ*
 `;
 
     for (const cat in coms) {
@@ -61,7 +61,7 @@ const date = moment().format('DD/MM/YYYY');
          ◇           ◇
 *—————🦠🦠🦠—————*
 
-  *𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃*                                         
+  *ᴍᴀᴛᴇʟᴇᴇ ᴍᴀsᴛᴇʀ ᴏғ ᴅɪɢɪᴛᴀʟ ʜᴀᴄᴋs*                                         
 *╰═════════════✰*
 `;
 
