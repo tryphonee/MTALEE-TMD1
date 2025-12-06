@@ -1,4 +1,3 @@
-
 const util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
@@ -31,7 +30,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━✧𝙶𝚁𝙴𝚈𝙵 𝚅𝙴𝙽𝙾𝚇 𝚇𝙼𝚉✧━━❖
+╭━━✧𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃✧━━❖
 ┊✺┌────••••────⊷
 ┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
 ┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
@@ -39,13 +38,13 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
 ┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
 ┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝙶𝚁𝙴𝚈𝙵 𝚅𝙴𝙽𝙾𝚇 𝚇𝙼𝚉 
+┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃 
 ┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃✇│ 𝚃𝚑𝚎𝚖𝚎 : GREYF
+┃✇│ 𝚃𝚑𝚎𝚖𝚎 : matele
 ┊   └────••••────⊷
-╰━━━••✧𝙶𝚁𝙴𝚈𝙵 𝚅𝙴𝙽𝙾𝚇 𝚇𝙼𝚉✧••━━━◆ \n`;
+╰━━━••✧𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃✧••━━━◆ \n`;
 
-    let menuMsg = `𝙶𝚁𝙴𝚈𝙵 𝚅𝙴𝙽𝙾𝚇 𝚇𝙼𝚉`;
+    let menuMsg = `𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -61,7 +60,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     }
     
     menuMsg += `
-> @𝙶𝚁𝙴𝚈𝙵 𝚅𝙴𝙽𝙾𝚇 𝚇𝙼𝚉\n`;
+> 𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
@@ -70,10 +69,10 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝙶𝚁𝙴𝚈𝙵 𝚅𝙴𝙽𝙾𝚇 𝚇𝙼𝚉",
+                    title: "𝚳𝚫𝚻𝚵𝐋𝚵𝚵-𝚻𝚳𝐃",
                     body: "Tap here my friend join channel update",
-                    thumbnailUrl: "https://files.catbox.moe/mkho8e.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VavShWD1iUxb6kjV6K2T",
+                    thumbnailUrl: "https://files.catbox.moe/ejm45q.jpg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VatokI45EjxufALmY32X",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
