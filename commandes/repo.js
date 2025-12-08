@@ -30,24 +30,24 @@ zokou(
         const lastUpdateDate = new Date(data.updated_at).toLocaleDateString("en-GB");
 
         const gitdata = `
-╔═════════════════════════════❀════════════════════════╗
-          *🔥 Welcome to MATELEE TMD*
-     📣 Support our channel: [(https://whatsapp.com/channel/0029VatokI45EjxufALmY32X)
-╚═════════════════════════════❀════════════════════════╝
 
-╔═════════════✦━━━ *Repository Information* ━━━✦═
+      *🔥 Welcome to MATELEE TMD*
+📣 Support our channel: [(https://whatsapp.com/channel/0029VatokI45EjxufALmY32X)
+_____________________________________
+
+     *Repository Information*
 🔗 *Repository Link:* ${data.html_url}
 📅 *Last Updated:* ${lastUpdateDate}
-╚══════════════════════════════════
+______________________________________
 
-╔═════════════✦━━━ *Repository Stats* ━━━✦═
+    *Repository Stats* 
 ⭐️ *Stars:* ${repoInfo.stars}
 🍴 *Forks:* ${repoInfo.forks}
 📆 *Release Date:* ${releaseDate}
 👤 *Owner:* ${repoInfo.owner}
-╚════════════════════════
 
-╔════════════════════
+
+╔═══════════════════
          *🔥 𝑝𝑜𝑤𝑒𝑟𝑒𝑑 𝑏𝑦 𝑄𝑎𝑟𝑡𝑑𝑒 🔥*
 ╚═══════════════════
         `;
